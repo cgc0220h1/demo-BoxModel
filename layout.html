@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Layout By Div</title>
+    <style>
+        body {
+            font-family: Verdana,sans-serif;
+            font-size: large;
+        }
+
+        #main {
+            margin-top: 0;
+            margin-right: auto;
+        }
+
+        #head {
+            height: 100px;
+            background-color: lightgrey;
+            border: 1px solid lightgrey;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        #head-link {
+            height: 30px;
+            background-color: aqua;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        #left {
+            width: 10%;
+            min-height: 400px;
+            float: left;
+            background-color: yellow;
+            margin-bottom: 5px;
+            /*margin-right: 5px;*/
+        }
+
+        #content {
+            width: 79%;
+            min-height: 400px;
+            float: left;
+            background-color: pink;
+            margin-bottom: 5px;
+            margin-right: 0.5%;
+            margin-left: 0.5%;
+            text-align: center;
+        }
+
+        #right {
+            width: 10%;
+            min-height: 400px;
+            background-color: darkgreen;
+            float: left;
+            text-align: justify;
+            margin-bottom: 5px;
+        }
+
+        #footer{
+            background-color: #afee;
+            clear: both;
+            height: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="head">Đây là block chứa logo và banner</div>
+    <div id="head-link">Đây là block chứa menu</div>
+    <div id="left">Đây là block chứa nội dung của cột trái</div>
+    <div id="content">Đây là block chứa nội dung chính của trang</div>
+    <div id="right">Đây là block chứa nội dung của cột phải</div>
+    <div id="footer">Đây là block chứa nội dung ở cuối trang</div>
+</div>
+</body>
+</html>
