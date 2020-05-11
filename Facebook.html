@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Mimic</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Tahoma, sans-serif;
+        }
+
+        .nav-bar {
+            overflow: hidden;
+            background-color: dodgerblue;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .nav-bar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .main {
+            width: 100%;
+            position: relative;
+            top: 40px;
+        }
+
+        .left {
+            background-color: #004C00;
+            float: left;
+            width: 30%;
+        }
+
+        .content {
+            background-color: orange;
+            float: left;
+            width: 100px;
+        }
+
+        .right {
+            background-color: blue;
+            float: left;
+            width: 30%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="nav-bar">
+    <a href="#home">Home</a>
+    <a href="#friends">Friends</a>
+    <a href="#profile">Profile</a>
+    <a href="#messenger">Messenger</a>
+</div>
+<div class="main">
+    <div class="left">
+        <span>Nguyễn Văn Nam</span>
+        <br><br>
+        <span>Bảng tin</span>
+        <br><br>
+        <span>Messenger</span>
+        <br><br>
+        <span>Marketplace</span>
+    </div>
+    <div class="content">
+        <div class="status"></div>
+        <div class="story"></div>
+        <div class="wall"></div>
+    </div>
+    <div class="right">
+        <div class="video"></div>
+        <div class="Sponsor"></div>
+    </div>
+</div>
+</body>
+</html>
